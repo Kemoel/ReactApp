@@ -2,10 +2,8 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: sans-serif;
-  margin: 20px;
-  padding: 0;
+div {
+  position: center;
 }
 
 h1 {
@@ -52,8 +50,9 @@ ul {
 
 body {
   font-family: sans-serif;
-  margin: 20px;
+  margin: 0;
   padding: 0;
+  background-color: lightyellow;
 }
 
 .square {
@@ -77,6 +76,10 @@ body {
   display: table;
 }
 
+html {
+  height: 100%;
+}
+
 .status {
   margin-bottom: 10px;
 }
@@ -87,4 +90,9 @@ body {
 
 .game-info {
   margin-left: 20px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
